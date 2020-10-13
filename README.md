@@ -3,7 +3,7 @@
 ![ruby](https://img.shields.io/badge/Ruby-2.6.5-red.svg)
 ![rails](https://img.shields.io/badge/Rails-6.0.2-red.svg)
 ![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
-![Codeship Status for igormelao/onebitexchange](https://app.codeship.com/projects/2ddb03a0-efc5-0138-2aba-623498a99a86/status?branch=master)(https://codeship.com/projects/413808)
+![Codeship Status for igormelao/onebitexchange](https://app.codeship.com/projects/2ddb03a0-efc5-0138-2aba-623498a99a86/status?branch=master)
 <div>
   <h4>Quanto está a cotação agora?</h4>
   <h5>Converta cambio e saiba quanto custa uma conversão de moedas agora mesmo!</h5>
