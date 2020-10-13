@@ -3,7 +3,7 @@
 ![ruby](https://img.shields.io/badge/Ruby-2.6.5-red.svg)
 ![rails](https://img.shields.io/badge/Rails-6.0.2-red.svg)
 ![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
-[ ![Codeship Status for igormelao/easymark](https://app.codeship.com/projects/413808/builds/49267527?pipeline=73388365-9b02-4ccf-8a82-352ac46f8bac)](https://app.codeship.com/projects/413808)
+[ ![Codeship Status for igormelao/onebitexchange](https://app.codeship.com/projects/413808/builds/49267527?pipeline=73388365-9b02-4ccf-8a82-352ac46f8bac)](https://app.codeship.com/projects/413808)
 
 <div>
   <h4>Quanto está a cotação agora?</h4>
@@ -21,7 +21,7 @@ Enjoy it!
 
 # Demo
 
-<a href="https://easymark.herokuapp.com/">Easy Mark</a>
+<a href="https://onebitexchange2020.herokuapp.com/">One Bit Exchange</a>
 
 # Require
 ```
