@@ -1,24 +1,112 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# [One Bit Exchange]
+![ruby](https://img.shields.io/badge/Ruby-2.6.5-red.svg)
+![rails](https://img.shields.io/badge/Rails-6.0.2-red.svg)
+![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
+[ ![Codeship Status for igormelao/easymark](https://app.codeship.com/projects/413808/builds/49267527?pipeline=73388365-9b02-4ccf-8a82-352ac46f8bac)](https://app.codeship.com/projects/413808)
 
-Things you may want to cover:
+<div>
+  <h4>Quanto está a cotação agora?</h4>
+  <h5>Converta cambio e saiba quanto custa uma conversão de moedas agora mesmo!</h5>
+  <h5>Rápido, fácil e intuitivo</h5>
+</div>
 
-* Ruby version
 
-* System dependencies
+# Basic Overview
 
-* Configuration
+<p>Saiba rapidamente quanto uma cotação está valendo nesse exato momento. Basta apenas escolher a moeda a ser convertida e a moeda destino. Coloque o valor a ser convertido e pronto.</p>
 
-* Database creation
+Enjoy it!
 
-* Database initialization
 
-* How to run the test suite
+# Demo
 
-* Services (job queues, cache servers, search engines, etc.)
+<a href="https://easymark.herokuapp.com/">Easy Mark</a>
 
-* Deployment instructions
+# Require
+```
+  * Rails 6.0.2
+  * Ruby 2.6.5
+  * Docker
+  * Docker Compose
+  * Postgres
+  * Bootstrap
+  * Rest-client
+  * FFaker
+  * FactoryBot
+  * Rspec
+  * Capybara
+```
 
-* ...
+
+# Getting Started
+
+### 1. Do a fork at original repository
+```
+  git@github.com:igormelao/onebitexchange.git
+```
+
+### 2. Clone your fork at a local repository
+
+### 3. Build you project with docker-compose
+```
+   $ docker-compose build      
+```
+
+### 4. Start docker-compose
+```
+   $ docker-compose up
+```
+
+### 4. Run all migrations
+```
+   $ docker-compose run --rm app rails db:create db:migrate      
+```
+
+### 5. How to execute other commands
+```
+$ docker-compose run --rm app commandName
+```
+
+### 6. Install new gems
+```
+Always when you install a new gem execute step 3
+```
+
+### 7. Start APP
+```
+$ docker-compose up
+```
+
+### 8. Test App
+```
+$ docker-compose run --rm app rails rspec
+```
+
+## How to contribute to the project
+
+### 1. Add the remote repository source at your local repositoy
+```
+$ git remote add upstream git@github.com:igormelao/onebitexchange.git
+```
+
+### 2. Sync your repository with the original repository
+```
+$ git fetch upstream
+```
+
+### 3. Update your local repository
+```
+$ git checkout master
+$ git merge upstream/master
+```
+
+### 4. Work on it and send your changes
+```
+$ git push origin master
+```
+
+### 5. Do a pull request at your fork on GitHub
+
+
+\\_o_// HAO! Live long and prosper!
